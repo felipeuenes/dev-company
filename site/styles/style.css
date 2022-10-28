@@ -23,6 +23,8 @@ a{
   
     color: white;
     
+    
+    
 }
 
 .box1 h2{
@@ -32,7 +34,7 @@ a{
     top: 130rem;
     font-size: 17rem;
     display: flex;
-
+   
 
     justify-content: center;
 }
@@ -81,5 +83,19 @@ a{
     padding: 0rem;
     
     
+    position: absolute;
+}
+
+.box2 h2{
+    color: white;
+    font-family: montserrat black;
+    text-align: center;
     position: relative;
+    top: 130rem;
+    font-size: 14rem;
+    display: flex;
+   
+
+    justify-content: center;
+
 }
