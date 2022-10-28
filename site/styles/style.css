@@ -98,7 +98,7 @@ a{
     text-align: center;
     position: relative;
     top: 50rem;
-    font-size: 15rem;
+    font-size: 16rem;
     display: flex;
    
 
@@ -108,13 +108,14 @@ a{
 
 .quemSomos{
     display: flex;
+    flex-direction: column;
 
 }
 
 .quemSomos img{
     width: 60rem;
-    position: relative;
-    top: 80rem;
+    position: absolute;
+    top: 130rem;
     left: 40rem;
 }
 
@@ -122,7 +123,11 @@ a{
     color: white;
     position: relative;
     top: 90rem;
-    left: 30rem;
+    left: 100rem;
     font-family: montserrat;
     font-size: 12rem;
+    width: 60%;
 }
+
+
+
