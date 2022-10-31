@@ -36,14 +36,26 @@ a{
        
 }
 
-.box1 img{
+
+.fundo{
+    position: absolute;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .box1 img{
     position: absolute;
     opacity: 0.5;
     width: 100%;
     height: 100%;
     object-fit: cover;
    
-}
+} */
+
+
+
 
 .box1 h2{
     font-family: montserrat black;
@@ -82,16 +94,16 @@ a{
 
 
 .setinha{
-    width: 30rem;
+    width: 60rem;
 
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
 
-    
+    z-index: +8;
     position: relative;
-    top: 50rem;
+    top: 280rem;
     
 }
 
