@@ -184,16 +184,33 @@ a{
 
 }
 
-.box3 p{
-    color: rgb(255, 0, 0);
+.box3 h3 {
+    color: #b90912;
     font-family: montserrat black;
     text-align: center;
     position: relative;
     top: 50rem;
-    font-size: 16rem;
+    font-size: 18rem;
     display: flex;
    
 
+    justify-content: center;
+
+}
+
+.box3 p{
+    color: white;
+    font-family: montserrat;
+   
+    position: relative;
+    top: 80rem;
+    font-size: 16rem;
+    display: flex;
+    width: 80%;
+   
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
     justify-content: center;
 }
 
